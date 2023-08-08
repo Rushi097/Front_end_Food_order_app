@@ -1,0 +1,492 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+
+/* Contact Page start here */
+*{
+    box-sizing: border-box;
+}
+
+
+html, body,wrapper{
+    height: 100%;
+}
+
+/*
+body{
+    display: grid;
+    place-items: center;
+    margin: 0 ;
+    padding: 0 24px;
+   background-image: url("background.svg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: #000;
+    font-family: "Ubuntu";
+   animation: rotate 6s infinite alternate linear;
+}
+*/
+
+
+.login-card{
+      background: #fff;
+      position: relative;
+      top: 0%;
+      left: 37%;
+    
+
+      z-index: 3;
+      width: 100%;
+      margin: 0 20px;
+      padding: 70px 30px 44px;
+      border-radius: 1.25rem;
+      text-align: center;
+
+      
+}
+
+
+
+
+.login-card > h2{
+      font-size: 36px;
+      font-weight: 600;
+      margin: 0 0 12px;
+     
+}
+
+.login-card > h3{
+      color: rgba(0, 0, 0, 0.38);
+      margin: 0 0 30px;
+      font-weight: 500;
+      font-size: 1rem;
+      
+}
+
+.login-form{
+      width: 100%;
+      margin: 0;
+      display: grid;
+      gap: 16px;
+      
+}
+
+.login-form > input, .login-form > button{
+      width: 100%;
+      height: 50px;
+     
+} 
+
+.login-form > input{
+      border: 2px solid #ebebeb;
+      font-family: inherit;
+      font-size: 15px;
+      padding: 0 16px;
+      border-radius: 1.25rem;
+      transition: all 0.375s;
+     
+}
+
+.login-form > input:hover {
+       border: 2px solid #10449A;
+}
+
+.login-form > button{
+      cursor: pointer;
+      width: 100%;
+      padding: 0 16px;
+      border-radius: 1.25rem;
+      border: 0;
+      background: #216ce7;
+      color: #f9f9f9;
+      font-weight: 600;
+      font-family: inherit;
+      text-align: center;
+      letter-spacing: 2px;
+      transition: all 0.375s;
+    
+}
+
+.login-form > button:hover{
+      background: #10449A;     
+}
+
+.login-form > a{
+      color: #216ce7;
+      font-size: 0.9rem;
+      text-align: left;
+      text-decoration: none;
+      margin-bottom: 6px;
+      transition: all 0.375;
+      
+}
+
+.login-form >a:hover{
+      color: #10449A;
+}
+
+@keyframes rotate{
+    100%{
+        background-position: 15% 50%;
+    }
+}
+
+@media (width >= 500px){
+    body{
+        padding: 0;
+    }
+    .login-card{
+        margin: 0;
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (width >= 500px){
+  body{
+      padding: 0;
+  }
+  .login-card{
+      margin: 0;
+      width: 400px;
+  }
+}
+
+/* LOgin page end here */
+
+
+
+
+/* signup page start here */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #fbfbfc;
+}
+.main .form{
+    width: 280px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #555;
+}
+.main .form h1{
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 6px;
+}
+.main .form p{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.main .form form input{
+    width: 100%;
+    height: 35px;
+    padding: 6px;
+    margin: 7px 0;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px #333;
+    color: #555;
+}
+.main .form form input[type="submit"]{
+    background: #6763E7;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: 0.3s all ease;
+}
+.main .form form input[type="submit"]:hover{
+    background: #524ddb;
+}
+.main .form p.login-link{
+font-size: 13px;
+}
+.main .form p.login-link a{
+    text-decoration: none;
+    color: rgb(6, 95, 228);
+}
+
+/* signup page end here */
